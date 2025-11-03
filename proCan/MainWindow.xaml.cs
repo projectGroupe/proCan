@@ -79,7 +79,7 @@ namespace CanTraceDecoder
 
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
-                Filter = "Trace files (*.trc)|*.trc|All files (*.*)|*.*"
+                Filter = "Trace files (*.trc;*.txt)|*.trc;*.txt|All files (*.*)|*.*"
             };
 
             if (openFileDialog.ShowDialog() == true)
